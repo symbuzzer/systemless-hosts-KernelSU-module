@@ -1,0 +1,37 @@
+# create&release workflow for Magisk Module Git v1.0.0 by Ali BEYAZ
+
+name: create&release  
+on: [workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: symbuzzer/fork-checkout-repo@main
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Get module version
+        id: version
+        uses: symbuzzer/fork-github-action-json-property@master
+        with: 
+            path: 'update.json'
+            prop_path: 'version'
+      - name: Creating module zip
+        run:  |
+          sudo zip -r ${{ github.event.repository.name }}.zip *  
+      - name: Create and upload release asset
+        uses: symbuzzer/fork-github-release@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{steps.version.outputs.prop}}
+          name: ${{steps.version.outputs.prop}}
+          body: Please check [changelog](https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/CHANGELOG.md) for changes
+          files: ${{ github.event.repository.name }}.zip
+          gzip: false
+          draft: false
+          prerelease: false
+          allow_override: true
+      - name: Cleanup module zip
+        run:  |
+          rm ${{ github.event.repository.name }}.zip

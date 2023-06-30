@@ -1,0 +1,7 @@
+id={module_name}
+name={module_name}
+version=v1.0.0
+versionCode=100
+author={user_name}
+description=
+updateJson=https://raw.githubusercontent.com/{user_name}/{module_name}/{branch}/update.json

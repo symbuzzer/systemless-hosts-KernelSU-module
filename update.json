@@ -1,0 +1,6 @@
+{
+  "version": "v1.0.0",
+  "versionCode": 100,
+  "zipUrl": "https://github.com/{user_name}/{module_name}/releases/latest/download/{module_name}.zip",
+  "changelog": "https://raw.githubusercontent.com/{user_name}/{module_name}/{branch}/CHANGELOG.md"
+}
