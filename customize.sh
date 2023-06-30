@@ -1,3 +1,5 @@
-cp -af /system/etc/hosts "$MODPATH/hosts"
-chcon u:object_r:system_file:s0 "$MODPATH/hosts"
-chmod 644 "$MODPATH/hosts"
+mkdir -p "$MODPATH/system/etc"
+cp -af /system/etc/hosts "$MODPATH/system/etc/hosts"
+chcon -r u:object_r:system_file:s0 "$MODPATH/system"
+chmod 644 "$MODPATH/system/etc/hosts"
+mkdir "$MODDIR/worker"
