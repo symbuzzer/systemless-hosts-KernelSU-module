@@ -1,5 +1,8 @@
 For support this project: [Patreon](https://avalibeyaz.com/patreon)  
 --------------  
+## v1.1.0  
+- Fixed an issue where some apps could detect root. Thanks to [HuskyDG](https://github.com/HuskyDG) for his [ksu_unmount_injector](https://github.com/HuskyDG/ksu_unmount_injector) module.  
+  
 ## v1.0.5  
 - Readded [HuskyDG](https://github.com/HuskyDG)'s [PR](https://github.com/symbuzzer/systemless-hosts-KernelSU-module/pull/1) which is for "using overlay instead of bind mount"
 - Merged [tiann](https://github.com/tiann)'s [PR](https://github.com/symbuzzer/systemless-hosts-KernelSU-module/pull/2) which is for "Skipping systemless mount because we mount it ourself"
