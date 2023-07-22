@@ -1,2 +1,2 @@
 MODDIR="${0%/*}"
-mount --bind "$MODDIR/system/etc/hosts" /system/etc/hosts
+mount -t overlay -o lowerdir=/system/etc,upperdir=$MODDIR/system/etc,workdir=$MODDIR/worker KSU /system/etc
