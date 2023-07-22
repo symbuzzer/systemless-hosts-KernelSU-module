@@ -1,5 +1,8 @@
 For support this project: [Patreon](https://avalibeyaz.com/patreon)  
 --------------  
+## v1.1.1  
+- Reverting to v1.0.5 due breaking safetynet
+  
 ## v1.1.0  
 - Fixed an issue where some apps could detect root. Thanks to [HuskyDG](https://github.com/HuskyDG) for his [ksu_unmount_injector](https://github.com/HuskyDG/ksu_unmount_injector) module.  
   
