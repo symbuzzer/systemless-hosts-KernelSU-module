@@ -1,2 +1,6 @@
 MODDIR="${0%/*}"
-mount -t overlay -o lowerdir=/system/etc,upperdir=$MODDIR/system/etc,workdir=$MODDIR/worker KSU /system/etc
+if [ "$(pwd)" -ne "$MODDIR" ]; then
+    cd "$MODDIR"
+fi
+
+mount -t overlay -o lowerdir=/system/etc,upperdir=system/etc,workdir=worker KSU /system/etc
