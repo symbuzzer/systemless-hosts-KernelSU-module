@@ -1,6 +1,6 @@
 {
-  "version": "v1.1.2",
-  "versionCode": 112,
+  "version": "v1.1.3",
+  "versionCode": 113,
   "zipUrl": "https://github.com/symbuzzer/systemless-hosts-KernelSU-module/releases/latest/download/systemless-hosts-KernelSU-module.zip",
   "changelog": "https://raw.githubusercontent.com/symbuzzer/systemless-hosts-KernelSU-module/main/CHANGELOG.md"
 }
