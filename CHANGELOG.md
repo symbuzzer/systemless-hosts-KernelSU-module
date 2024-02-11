@@ -1,5 +1,8 @@
 For support this project: [Patreon](https://avalibeyaz.com/patreon)  
 --------------  
+## v1.1.3  
+- Added APatch related information to README.md and made changes to modules recommended there
+  
 ## v1.1.2  
 - Updated README.md
   
