@@ -1,5 +1,9 @@
 For support this project: [Patreon](https://avalibeyaz.com/patreon)  
 --------------  
+## v1.1.4  
+- Added KernelSU's new feature: "webroot html UI" (thanks to [0x0021](https://github.com/0x0021))
+- Changed versionCode structure to xxyyzz (for example for v2.0.1 is 020001, not 201 now)
+  
 ## v1.1.3  
 - Added APatch related information to README.md and made changes to modules recommended there
   
