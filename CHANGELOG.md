@@ -1,5 +1,9 @@
 For support this project: [Patreon](https://avalibeyaz.com/patreon)  
 --------------  
+## v1.2.0
+- Merged [backslashxx](https://github.com/backslashxx)'s [PR](https://github.com/symbuzzer/systemless-hosts-KernelSU-module/pull/23) adding necessary changes for APatch and KernelSU-Next
+- Added proper credits to backslashxx on README
+
 ## v1.1.4  
 - Added KernelSU's new feature: "webroot html UI" (thanks to [0x0021](https://github.com/0x0021))
 - Changed versionCode structure to xxyyzz (for example for v2.0.1 is 020001, not 201 now)
@@ -31,7 +35,7 @@ For support this project: [Patreon](https://avalibeyaz.com/patreon)
 - Merged [HuskyDG](https://github.com/HuskyDG)'s [PR](https://github.com/symbuzzer/systemless-hosts-KernelSU-module/pull/1) which is for "using overlay instead of bind mount"
   
 ## v1.0.1  
-- Added preper credits to HuskyDG on README
+- Added proper credits to HuskyDG on README
 - Fixed changelog url on README
   
 ## v1.0.0  
