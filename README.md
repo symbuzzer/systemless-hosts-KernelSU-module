@@ -14,3 +14,4 @@ Required module to use applications such as AdAway on KernelSU and APatch
 ## Thanks
 - Original code and idea: [HuskyDG](https://github.com/HuskyDG)
 - For his support: [tiann](https://github.com/tiann)
+- For his support: [backslashxx](https://github.com/backslashxx)
