@@ -8,7 +8,8 @@ PATH=/data/adb/ap/bin:/data/adb/ksu/bin:/data/adb/magisk:$PATH
 if ! grep -q sdcardfs /proc/filesystems >/dev/null 2>&1; then
 	# test for magic mount
 	if [ "$KSU_MAGIC_MOUNT" = "true" ] || [ "$APATCH_BIND_MOUNT" = "true" ] || { [ -f /data/adb/magisk/magisk ] && [ -z "$KSU" ] && [ -z "$APATCH" ]; }; then
-		abort '[!] This module is not compatible to magic mount managers!'
+		ui_print '[!] This module is not compatible to magic mount managers!'
+  		abort "Tip: Enable OverlayFS in Managers settings"
 	fi
 fi
 
