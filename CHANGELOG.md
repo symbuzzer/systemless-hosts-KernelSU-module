@@ -1,5 +1,8 @@
 For support this project: [Patreon](https://avalibeyaz.com/patreon)  
 --------------  
+## v1.2.1
+- Added an alert about enabling OverlayFS in installation process (thanks to [LoggingNewMemory](https://github.com/LoggingNewMemory))
+
 ## v1.2.0
 - Merged [backslashxx](https://github.com/backslashxx)'s [PR](https://github.com/symbuzzer/systemless-hosts-KernelSU-module/pull/23) adding necessary changes for APatch and KernelSU-Next
 - Added proper credits to backslashxx on README
