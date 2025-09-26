@@ -1,7 +1,7 @@
 id=systemless-hosts-KernelSU-module
 name=systemless hosts KernelSU module
-version=v1.2.1
-versionCode=010201
+version=v1.2.2
+versionCode=010202
 author=symbuzzer (avalibeyaz.com/github)
 description=Required module to use applications such as AdAway on KernelSU(-Next) and APatch
 updateJson=https://raw.githubusercontent.com/symbuzzer/systemless-hosts-KernelSU-module/main/update.json
