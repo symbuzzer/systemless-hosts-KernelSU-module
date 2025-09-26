@@ -2,6 +2,7 @@ For support this project: [Patreon](https://avalibeyaz.com/patreon)
 --------------  
 ## v1.2.2
 - Fixed minor typo (thanks to [jpzex](https://github.com/jpzex))
+
 ## v1.2.1
 - Added an alert about enabling OverlayFS in installation process (thanks to [LoggingNewMemory](https://github.com/LoggingNewMemory))
 
