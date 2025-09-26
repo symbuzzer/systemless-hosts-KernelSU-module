@@ -14,9 +14,9 @@ if ! grep -q sdcardfs /proc/filesystems >/dev/null 2>&1; then
 fi
 
 mkdir -p "$MODPATH/system/etc"
-busybox chcon --reference"/system" "$MODPATH/system"
+busybox chcon --reference "/system" "$MODPATH/system"
 cat /system/etc/hosts > "$MODPATH/system/etc/hosts"
-busybox chcon --reference"/system/etc/hosts" "$MODPATH/system/etc/hosts"
+busybox chcon --reference "/system/etc/hosts" "$MODPATH/system/etc/hosts"
 chmod 644 "$MODPATH/system/etc/hosts"
 mkdir "$MODPATH/worker"
 touch "$MODPATH/skip_mount"
